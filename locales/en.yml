@@ -590,7 +590,6 @@ strings:
 
       Join my [News Channel](http://t.me/ratatoskr_org) to get information on all the latest updates.
     public_help: "Press the button below to get help for <i>{help_option}</i>"
-    source_code: "Source Code"
   utils:
     gif_id:
       reply_gif: "Please reply to a gif to get its ID."
