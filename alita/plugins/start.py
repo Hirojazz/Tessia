@@ -92,7 +92,7 @@ async def start(c: Alita, m: Message):
                 parse_mode="markdown",
                 reply_markup=ikb(help_kb),
                 quote=True,
-                disable_web_page_preview=True,
+                disable_web_page_preview=False,
             )
             return
         try:
@@ -100,7 +100,7 @@ async def start(c: Alita, m: Message):
                 (tlang(m, "start.private")),
                 reply_markup=(await gen_start_kb(m)),
                 quote=True,
-                disable_web_page_preview=True,
+                disable_web_page_preview=False,
             )
         except UserIsBlocked:
             LOGGER.warning(f"Bot blocked by {m.from_user.id}")
@@ -118,7 +118,7 @@ async def start_back(_, q: CallbackQuery):
         await q.message.edit_text(
             (tlang(q, "start.private")),
             reply_markup=(await gen_start_kb(q.message)),
-            disable_web_page_preview=True,
+            disable_web_page_preview=False,
         )
     except MessageNotModified:
         pass
@@ -171,7 +171,7 @@ async def help_menu(_, m: Message):
                 parse_mode="markdown",
                 reply_markup=ikb(help_kb),
                 quote=True,
-                disable_web_page_preview=True,
+                disable_web_page_preview=False, 
             )
         else:
             await m.reply_text(
