@@ -95,7 +95,7 @@ __PLUGIN__ = "formatting"
 __alt_name__ = ["formatting", "markdownhelp", "markdown"]
 __buttons__ = [
     [
-        ("Markdown Formatting", "formatting.md_formatting"),
+        ("Markdown Format", "formatting.md_formatting"),
         ("Fillings", "formatting.fillings"),
     ],
     [("Random Content", "formatting.random_content")],
