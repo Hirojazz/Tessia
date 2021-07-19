@@ -1,6 +1,6 @@
 ---
 main:
-  lang_sample: "US English"
+  lang_sample: "US"
   language_flag: "🇺🇸"
   language_name: English
 strings:
