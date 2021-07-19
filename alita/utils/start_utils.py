@@ -65,18 +65,13 @@ async def gen_start_kb(q: Message or CallbackQuery):
                 ),
                 (
                     f"{(tlang(q, 'start.support_group'))} 👥",
-                    f"https://t.me/{SUPPORT_GROUP}",
+                    f"https://t.me/kurumisupport",
                     "url",
                 ),
             ],
             [(f"📚 {(tlang(q, 'start.commands_btn'))}", "commands")],
             [
                 (f"🌐 {(tlang(q, 'start.language_btn'))}", "chlang"),
-                (
-                    f"🗃️ {(tlang(q, 'start.source_code'))}",
-                    "https://github.com/DivideProjects/Alita_Robot",
-                    "url",
-                ),
             ],
         ],
     )
