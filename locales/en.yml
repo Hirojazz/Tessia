@@ -480,22 +480,17 @@ strings:
   general:
     donate_owner: |-
       Hey Thanks for your thought of donating me!
-      When you donate, all the fund goes towards my development which makes on fast and responsive.
-      Your donation might also me get me a new feature or two, which I wasn't able to get due to server limitations.
+      But it's not necessary... 
 
-      All the fund would be put into my services such as database, storage and hosting!
-
-      You can donate by contacting my owner here: @DivideProjectsBot
     back_btn: Back
     check_help: "Please check help on how to use this this command."
     close_btn: Close
     commands_available: |-
-      Hey There! My name is Alita.
+      Hey There! I'm [Tessia](https://telegra.ph/file/5b97df2f6ec4b5296771b.jpg.) 
       I'm here to help you manage your groups!
       Commands available:
        × /start: Start the bot
        × /help: Give's you this message.
-       × /donate: Information related on how to support my creator!
 
       All commands can either be used with / or !.
     no_admin_cmd_perm: "You cannot use an admin command!"
@@ -578,23 +573,22 @@ strings:
   start:
     add_chat_btn: "Add to a chat"
     commands_btn: Commands & Help
-    group: "I'm alive :3"
+    group: "keks I'm alive bruh"
     info_page: |-
-      • @Alita_Robot
+      • @TessiaEralith_bot
 
       <b>Version:</b> <i>{version}</i>
 
-      <b>Developers:</b> [Divkix](https://github.com/Divkix)
       <b>Owner:</b> [{Owner}](tg://user?id={ID})
     support_group: Support
     language_btn: Language
     pm_for_help: "Contact me in PM to get the list of possible commands."
     private: |-
-      Hey there! My name is Alita ✨.
+      Hey there! I'm [Tessia](https://telegra.ph/file/5b97df2f6ec4b5296771b.jpg) ✨.
       I'm here to help you manage your groups!
       Hit /help to find out more about how to use me to my full potential.
 
-      Join my [News Channel](http://t.me/AlitaRobotUpdates) to get information on all the latest updates.
+      Join my [News Channel](http://t.me/ratatoskr_org) to get information on all the latest updates.
     public_help: "Press the button below to get help for <i>{help_option}</i>"
     source_code: "Source Code"
   utils:
@@ -635,7 +629,7 @@ strings:
 
           <b>Last Name:</b> {user_lname}
         main: |-
-          <b>Characteristics:</b>
+          <b>Keks Here's the info:</b>
           <b>ID:</b> <code>{user_id}</code>
           <b>First Name:</b> {user_name}
         perma_link: |-
@@ -648,16 +642,16 @@ strings:
         dev: |-
 
 
-          This member is one of my Developers ⚡️
+          This member is one of the biggest Noobs 🤡
         owner: |-
 
 
-          This person is my Owner, I would never do anything against them!
+          This guy is the dumb owner! 
 
         sudo: |-
 
 
-          This user is one of my Sudos, he has powers which are approximately same to owner!
+          Just another Sudo! 
         whitelist: |-
 
 
