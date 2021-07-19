@@ -60,7 +60,7 @@ class Development:
     SUDO_USERS = []
     WHITELIST_USERS = []
     DB_URI = "postgres://username:password@postgresdb:5432/database_name"
-    DB_NAME = "alita_robot"
+    DB_NAME = "tessia_bot"
     NO_LOAD = []
     PREFIX_HANDLER = ["!", "/"]
     SUPPORT_GROUP = "SUPPORT_GROUP"
